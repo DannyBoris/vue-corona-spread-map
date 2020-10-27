@@ -37,8 +37,12 @@ export default {
   data() {
     return {
       isPopupOpen: false,
-      confirmedCases: this.place[this.currDate + "_Confirmed_Cases"],
     };
+  },
+  computed: {
+    confirmedCases: function () {
+      return this.place[this.currDate + "_Confirmed_Cases"];
+    },
   },
 
   components: {
