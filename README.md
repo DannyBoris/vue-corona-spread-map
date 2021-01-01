@@ -1,4 +1,4 @@
-# interview-task-vue
+# CoronaVirus-vue
 
 ## Project setup
 ```
